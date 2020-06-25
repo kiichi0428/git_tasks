@@ -2,17 +2,15 @@
 
 int main()
 {
-    int a;
-    int b;
+    char a[10];
+    char b[10];
 
-    printf("Input an integer: ");
-    scanf("%d", &a);
-    printf("Input another integer: ");
-    scanf("%d", &b);
+    printf("Input a text: ");
+    scanf("%s", &a);
+    printf("Input another text: ");
+    scanf("%s", &b);
 
-    int c = a+b;
-
-    printf("sum: %d", c);
+    printf("Conbined Text: %s%s", a, b);
 
     return 0;
 }
